@@ -30,10 +30,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className='h-screen grid place-content-center p-4'>
-        <div className='flex flex-col'>
+      <div className='h-screen flex'>
+        <div className='flex flex-col justify-center w-full bg-zinc-900 my-auto pt-4 pb-8'>
           <h2 className='text-center mt-4 text-white mb-4'>ANOTHER SECTION</h2>
-          <h3 className='text-white text-center mb-8 max-w-3xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mi sapien, faucibus porttitor leo sit amet, tempor scelerisque nisi.</h3>
+          <h3 className='text-white text-center mb-8 max-w-3xl mx-auto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mi sapien, faucibus porttitor leo sit amet, tempor scelerisque nisi.</h3>
           <Image width={384} height={240} alt='lorem picsum' src="https://picsum.photos/384/240" className='w-96 h-60 mx-auto rounded-lg border-t border-r border-white' />
           <ExploreButton />
         </div>
